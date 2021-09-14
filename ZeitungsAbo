@@ -1,0 +1,10 @@
+class ZeitungsAbo{
+//...
+ void kuendigen(Date kuendigungsDatum){
+  assert(status!= AboStatus.gekuendigt);
+  assert(kuendigungsDatum >= this.fruehesteKuendigung);
+  //...
+  assert(status==AboStatus.gekuendigt);
+ }
+ /...
+ }
